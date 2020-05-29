@@ -1,6 +1,7 @@
 body {
     margin-top: 60px;
 	margin-bottom: 60px;
+	padding-bottom: 60px;
     width: 70%;
     font-family: 'Jost', sans-serif;
 }
