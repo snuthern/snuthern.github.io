@@ -8,6 +8,10 @@ html {
   -webkit-font-smoothing: antialiased;
 }
 /* Copy & Lists */
+body {
+  padding-bottom: 60px;
+}
+
 p {
   line-height: 1.5rem;
   margin-top: 1.5rem;
@@ -159,7 +163,7 @@ a:focus {
 @media only screen and (max-width: 812px) {
   body {
     margin: 12px;
-    padding: 0 12px 0 12px;
+    padding: 12px;
   }
 
   main {
