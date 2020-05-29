@@ -12,36 +12,56 @@ title : Adventures In JavaScript
       
        <hr />     
       <section>
-        <h1>Responsive Design Work</h1>
+        <h2>Simple Projects</h2>
         
         <div class="project-frame">
-          <p>Here is a simple tribute page to <a href="/projects/simple/ahmaud.html">Ahmaud Arbery</a>, another young African American man murdered in yet another unjust and hateful act. He was only 25 and was out jogging when 3 white men confronted him and murdered him on video</p>
+			<h3>Tribute Pages</h3>
+			<ul>
+				<li><a href="/projects/simple/ahmaud.html">Ahmaud Arbery</a></li>
+				<li><a href="/projects/simple/floyd.html">George Floyd</a></li>
+			</ul>
 			<br />
           
         </div>
-		  <div class="project-frame">
-          <p>Here is a simple tribute page to <a href="/projects/simple/floyd.html">George Floyd</a>, another African American man murdered in yet another unjust and hateful act. It has caused rioting and looting and even the murder of even more african americans the days following this event.</p>
-			<br />
-        </div>
       </section>
-      <hr />
-      <section>
-        <h1>Reviews</h1>
+	<br />
+	<section>
+        <h2>Reviews</h2>
         <blockquote>
           <p>Yossi is one of my favorite developers to work with, easy to reach and communicate with and fast to fix any issues my site has</p>
-            <footer>
+          <footer>
                 -
-                <cite>Shawn, VP & Co-Founder,
-                    <strong>Wiser</strong>
-                </cite>
-            </footer>
+            <cite>Shawn, VP & Co-Founder,
+              <strong>Wiser</strong>
+            </cite>
+          </footer>
+        </blockquote>
+		<hr />
+		<blockquote>
+          <p>Yossi was always available to call and discuss my site when I had issues, he was a great developer to work with, always on time and able to meet deadlines.</p>
+          <footer>
+                -
+            <cite>Kwame, Founder,
+              <strong>BetweenUs</strong>
+            </cite>
+          </footer>
+        </blockquote>
+		<br />
+		<blockquote>
+          <p>Implementing artists and tracks into a social network for radio guests and new talent was a tough job but Yossi was always there to come through on anything I asked of him. Great programmer.</p>
+          <footer>
+                -
+            <cite>Adam, President & Founder,
+              <strong>FONYE Radio</strong>
+            </cite>
+          </footer>
         </blockquote>
       
       </section>
         
-      <hr />
+      <br />
         <section id="socialLinks"> 
-            <h1>Links</h1>
+            <h2>Links</h2>
             <ul>
                 
                 <li>
@@ -55,9 +75,9 @@ title : Adventures In JavaScript
                 </li>
             </ul>
         </section>
-      <hr />
+      <br />
       <section id="articles">
-        <h1>Latest Articles</h1>
+        <h2>Latest Posts</h2>
 	    <ul class="posts">
             {% for post in site.posts %}
 	          <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
