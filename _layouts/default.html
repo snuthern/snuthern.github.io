@@ -1,28 +1,18 @@
+---
+layout: compress
+---
+
 <!DOCTYPE html>
-	<html>
-		<head>
-			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
-            <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap" rel="stylesheet">
-			<link rel="stylesheet" type="text/css" href="/css/style.css">
-            <link rel="icon" type="image/png" href="/img/favicon.ico" >
-		</head>
-		<body>
-				    		<nav>
-	    			<ul>
-	        			<li><a href="/">Home</a></li>
-		        		<li><a href="/about/">About</a></li>
-	        			<li><a href="https://github.com/snuthern/portfolio" target="_blank">Portfolio</a></li>
-	        			<li><a href="/blog/">Blog</a></li>
-	    			</ul>
-				</nav>
-			<div class="container">
-			    <main>
-					{{ content }}
-			    </main>
-			</div><!-- /.container -->
-			<footer>
-				<br style="margin-bottom: 70px;" />
-			</footer>
-		</body>
-	</html>
+<html lang="en" >
+  {% include head.html %}  
+  <body>
+    <main role="main">
+	    
+	    {% include navigation.html %}
+	    
+        {{ content }}
+        	    
+    </main>
+            
+  </body>
+</html>

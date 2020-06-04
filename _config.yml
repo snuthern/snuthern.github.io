@@ -1,0 +1,62 @@
+site: JavaScript Developer
+url: https://jsdevs.pro # change for production
+title: JavaScript Developer
+description: Just a simple developer portfolio and blog dedicated to @Snuthern
+twitter:
+  username: snuthern
+  card: summary
+  creator: snuthern
+author:
+  twitter: snuthern
+  name: snuthern
+  avatar:
+  email: yossi@jsdevs.pro
+  url: https://jsdevs.pro
+permalink: pretty
+
+baseurl: ""
+
+highlighter: none
+
+exclude:
+  - .jekyll-cache
+  
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+plugins:
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap  
+
+collections:
+  pages:
+    output: true
+    permalink: /:name
+  posts:
+    output: true
+    permalink: /:year/:month/:day/:slug
+  
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
