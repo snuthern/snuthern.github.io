@@ -2,6 +2,7 @@
 layout: post
 title: "A Free Cloud IDE With Perks!"
 date: 2020-05-28
+tags: IDE Freebies
 ---
 I love to find free resources online for developers and this one is amazing! Many times I am asked for a free resource to somewhere to develop node apps or typescript apps. I found this little gem a while back and have been testing it. They set you up on the free account with 5 "containers", a CLoud IDE connected to your container and 10 Gigs to play around with.  
   

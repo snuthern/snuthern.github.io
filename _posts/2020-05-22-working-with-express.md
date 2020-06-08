@@ -2,6 +2,7 @@
 layout: post
 title: "Working with Express.Js"
 date: 2020-05-22
+tags: Express.js Node.js Coronavirus
 ---
 
 Since the Coronavirus pandemic hit America there have been many APIs built to pull the data for new infections, hospitalizations, deaths, and more. I wanted to start learning Express.js so I set out to build a simple dashboard where I could view data for my State and I figured create it so others from other States could do the same.

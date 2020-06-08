@@ -10,17 +10,7 @@ This year, due to the numerous protests, I decided to dedicate a simple *tribute
 
 [Ahmaud Arbery]({{ site.baseurl }}/simple/tributes/ahmaud)  
 [Breona Taylor]({{ site.baseurl }}/simple/tributes/b-taylor)  
-[George Floyd]({{ site.baseurl }}/simple/tributes/g-floyd)   
+[George Floyd]({{ site.baseurl }}/simple/tributes/g-floyd)  
+[David Dorn]({{ site.baseurl }}/simple/tributes/d-dorn)   
   
-### Dev Tools  
-  
-These are just simple tools I created to aid in daily work, simple math is just basic math formulas in a easy to use module so I can use them along side **Math**, wireframe is a simple to use wireframing app to design out your website or app, studio bootsrap is a free version of bootstrap studio because paying for that would be stupid....   
-    
-simple-math  
-wireframe-app  
-studio-bootstrap  
-
-### JsDevs Pro
-  
-Just a site I bought and play around on, sometimes people email me there and I create deno / node apps on it as well. I will list them below as I have time  
-  
+I have plans to link more projects on here I am just busy working on projects and not ready to link them here yet, you can see them on GitHub but they arent ready for production yet...
