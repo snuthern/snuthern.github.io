@@ -12,6 +12,19 @@ This year, due to the numerous protests, I decided to dedicate a simple *tribute
 [Breona Taylor]({{ site.baseurl }}/simple/tributes/b-taylor)  
 [George Floyd]({{ site.baseurl }}/simple/tributes/g-floyd)  
 [David Dorn]({{ site.baseurl }}/simple/tributes/d-dorn)  
-[Rayshard Brooks]({{ site.baseurl }}/simple/tributes/r-brooks)   
+[Rayshard Brooks]({{ site.baseurl }}/simple/tributes/r-brooks)  
+[Atatiana Jefferson]({{ site.baseurl }}/simple/tributes/a-jefferson)  
+[Jamel Floyd]({{ site.baseurl }}/simple/tributes/j-floyd)  
+[Sean Monterossa]({{ site.baseurl }}/simple/tributes/s-monterossa)   
   
-I have plans to link more projects on here I am just busy working on projects and not ready to link them here yet, you can see them on GitHub but they arent ready for production yet. I am in the process of moving my [Portfolio]() repo into what is called a "monorepo" where all your projects are stored in one repo and one package.json file to control them all. I deleted most of my repos except this `gh-pages` one for this Jekyll project and the ones I have forked to contrib on. Give me some time please :D 
+# TypeScript Projects  
+  
+[Point_Of_Sale.ts](https://github.com/snuthern/snuthern/Point_Of_Sale.ts) - Side project to create a simple noSQL point of sale system, includes inventory, employees, cash machine and more **WIP**  
+  
+[Bookshelf.ts](https://github.com/snuthern/snuthern/Bookshelf.ts) - Collection of JavaScript and TypeScript books and reviews  
+  
+[Discord_Bot_Module.ts](https://github.com/snuthern/snuthern/Discord_Bot_Module.ts) - Discord module to create bots for Deno **WIP**  
+  
+MonoRepo... Recently Github rolled out README.md pages for profiles. This makes profiles a little more like portfolios for people to view. I decided it was time to move my portfolio over to a monorepo, The idea is to only have a minimum of repos on my profile. One for my profile "snuthern" one for my blog "snuthern.github.io" and maybe ones I fork to contribute to. This is a work in progress. Follow my blog for more.  
+  
+-- Yossi
