@@ -19,7 +19,7 @@ This year, due to the numerous protests, I decided to dedicate a simple *tribute
   
 # TypeScript Projects  
   
-[Point_Of_Sale.ts](https://github.com/snuthern/snuthern/Point_Of_Sale.ts) - Side project to create a simple noSQL point of sale system, includes inventory, employees, cash machine and more **WIP**  
+[Point_Of_Sale.ts](https://github.com/snuthern/snuthern/tree/master/Point_Of_Sale.ts) - Side project to create a simple noSQL point of sale system, includes inventory, employees, cash machine and more **WIP**  
   
 [Discord Bot Module](https://github.com/tsdiscord/discordts) - Discord module to create bots for Deno **WIP**  
   
