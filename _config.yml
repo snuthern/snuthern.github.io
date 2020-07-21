@@ -1,62 +1,82 @@
-site: JavaScript Developer
-url: https://jsdevs.pro # change for production
-title: JavaScript Developer
-description: Just a simple developer portfolio and blog dedicated to @Snuthern
-twitter:
-  username: snuthern
-  card: summary
-  creator: snuthern
-author:
-  twitter: snuthern
-  name: snuthern
-  avatar:
-  email: yossi@jsdevs.pro
-  url: https://jsdevs.pro
-permalink: pretty
+# Site settings
+title: Adventures In JavaScript # site title
+description: >- # site description
+  He's writing in Bahasa about web technology and experience as a journal 
+  for documentation things that he learned, meet him <a href="https://github.com/piharpi" target="_blank" rel="noopener">@github</a>.
+lang: en-US # default lang
+timezone: America/New_York # set your timezone
+image: assets/img/user.jpeg # This image used for Open Graph more info https://ogp.me/
+mode: dark # default theme "dark" | "light"
 
-baseurl: ""
+# Profile settings
+author: 
+  name: ${this.name} # author name
+  bio: >- # tell to the world
+    Just a simple backend developer in a lonely world writing about science, math, politics, religion, code, JavaScript, TypeScript, Deno, Data Science and whatever else I want to...
+  username: snuthern # author username
+  github: snuthern
+  twitter: queens_kgh
+  facebook: facebook_username
+  email: yosileyid@gmail.com # your contact adress
+  avatar: /assets/img/user.jpeg # change with your own avatar
 
-highlighter: rouge
+# Url settings
+url: "https://snuthern.github.io"
+baseurl:
+permalink: /:title/
+google_analytics:
+fb_appid:
 
-exclude:
-  - .jekyll-cache
-  
-compress_html:
-  clippings: all
-  comments: ["<!-- ", " -->"]
-
-sass:
-  sass_dir:          _sass
-  style:            :compressed
-
-plugins:
-  - jekyll-paginate
-  - jekyll-seo-tag
-  - jekyll-sitemap  
-
+# Collection setting
 collections:
-  pages:
-    output: true
-    permalink: /:name
   posts:
     output: true
-    permalink: /:year/:month/:day/:slug
-  
+
+# Markdown settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  syntax_highlighter: rouge
+
+# Default front matter
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
     values:
-      layout: "default"
-  -
-    scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "page"
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
+      layout: post
+      comments: false
+
+# Jekyll Compose default front matter
+jekyll_compose:
+  post_default_front_matter:
+    modified:
+    tags: []
+    description:
+  draft_default_front_matter:
+    modified:
+    tags: []
+    description:
+
+# Build settings
+sass:
+  style: compressed
+
+include:
+  - _redirects
+  - .htaccess
+
+exclude:
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - CHANGELOG.md
+  - README.md
+  - node_modules
+  - CODE_OF_CONDUCT.md
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-postfiles
